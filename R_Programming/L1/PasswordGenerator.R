@@ -1,0 +1,7 @@
+# a <- do.call(paste0, replicate(5,sample(LETTERS,5, TRUE), FALSE))
+# print(a)
+# b <- paste0("a" ,"b")
+# print(b)
+paste0(replicate(5,sample(LETTERS,5, TRUE),FALSE))
+print(a)
+sprintf("Hello")
